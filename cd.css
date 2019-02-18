@@ -12,7 +12,23 @@
  * 文件描述：(说明本文件需要实现的内容)
  *
  */
-
+#main{
+    background-color: #EFEFEF;
+}
+#featurebar:before,
+#featurebar:after{
+    content: " "; // 1
+    display: table; // 2
+}
+#featurebar:after{
+    clear: both;
+}
+#featurebar .nav{
+    float: left;
+}
+#featurebar .actions{
+    float: right;
+}
 .c-pri{
     width: 100px !important;
 }
