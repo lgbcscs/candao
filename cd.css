@@ -23,6 +23,7 @@
 #featurebar:after{
     clear: both;
 }
+#featurebar .nav li,
 #featurebar .nav{
     float: left;
 }
