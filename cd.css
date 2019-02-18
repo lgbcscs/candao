@@ -50,3 +50,17 @@
 .c-pri{
     width: 100px !important;
 }
+
+.container .colhead{
+    border-top: 3px solid rgba(75,75,75,.85);
+}
+.container .table-condensed{
+    table-layout: inherit;
+}
+.container tfoot{
+    background-color: rgba(75,75,75,.85);
+    height: 40px;
+}
+.container tfoot .table-actions{
+    visibility: visible;
+}
