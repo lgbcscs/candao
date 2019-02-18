@@ -12,20 +12,37 @@
  * 文件描述：(说明本文件需要实现的内容)
  *
  */
+.clearfix:before,
+.clearfix:after{
+    display: table;
+    content: " ";
+}
+.clearfix:after {
+    clear: both;
+}
+
+
 #main{
     background-color: #EFEFEF;
 }
-#featurebar:before,
-#featurebar:after{
-    content: " "; // 1
-    display: table; // 2
-}
-#featurebar:after{
-    clear: both;
+/*#featurebar:before,*/
+/*#featurebar:after{*/
+    /*content: " ";*/
+    /*display: table;*/
+/*}*/
+/*#featurebar:after{*/
+    /*clear: both;*/
+/*}*/
+#featurebar{
+    margin: -10px 0 8px;
+    height: 33px;
 }
 #featurebar .nav li,
 #featurebar .nav{
     float: left;
+}
+#featurebar .nav li .select-7{
+    width: 140px;
 }
 #featurebar .actions{
     float: right;
